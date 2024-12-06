@@ -1,0 +1,13 @@
+.order-placed{
+     justify-content: center;
+     font-family: "Playwrite DE Grund", cursive;
+     height:300px;
+}
+.order-placed h1 { 
+     color: green; 
+     font-size: 40px; 
+     
+} .order-placed p { 
+     font-size: 30px;
+    
+}     

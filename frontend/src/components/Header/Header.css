@@ -1,0 +1,68 @@
+
+
+.header{
+    font-family: "Caveat", cursive;
+    height: 34vw;
+    margin: 30px auto;
+    background: url('C:\Users\ishik\Major Project\website food\food-del\frontend\src\assets\Hamburgerbackimage.jpg') no-repeat;
+    background-size:cover;
+    position: relative;
+    border-radius: 20%;
+    font-family: "Playwrite DE Grund", cursive;
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 30%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+.header-contents h2{
+    color: white;
+    font-size: 50px;
+    font-family: "Playwrite DE Grund", cursive;
+}
+.header-contents p{
+    color: bisque;
+    font-size: 18px;
+    font-family: "Playwrite DE Grund", cursive;
+}
+.header-contents button{
+    height: 70px;
+    width: 190px;
+    position: absolute;
+    bottom: -110px;
+    left: -10px;
+    border: none;
+    color: #252424;
+    font-weight: 555;
+    padding: 1vw 2.3vw;
+    font-size: 44px;
+    background: #9fcb73;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+    font-family: "Playwrite DE Grund", cursive;
+}
+@media (max-width:1050px) {
+    .header{
+        height: 38vw;
+    }
+    .header-contents{
+        max-width: 45%;
+    }
+}
+@media(max-width:750px){
+    .header-contents{
+        max-width: 55%;
+    }
+    .header-contents p{
+       display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}

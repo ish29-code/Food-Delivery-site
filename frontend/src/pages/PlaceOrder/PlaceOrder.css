@@ -1,0 +1,80 @@
+.place-order{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 60px;
+    font-family: "Playwrite DE Grund", cursive;
+}
+.place-order-left{
+    width: 100%;
+    max-width: max(30%,500px);
+}
+.place-order-left .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-family: "Playwrite DE Grund", cursive;
+}
+.place-order-left input{
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    outline-color: rgb(255, 129, 71);
+    font-family: "Playwrite DE Grund", cursive;
+}
+.place-order-left .multi-field{
+    display: flex;
+    gap:10px;
+}
+.place-order-right{
+    width: 100%;
+    max-width: max(40%,500px);
+}
+.place-order-submit{
+    margin-top: 50px;
+    border: none;
+    background-color: rgb(255, 148, 71);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 16px;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+.payment h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Playwrite DE Grund", cursive;
+}
+.payment .payment-option{
+    display: flex;
+    align-items: center;
+    gap: 10px ;
+    border: 1px solid rgb(255, 166, 71);
+    padding: 15px;
+    border-radius: 4px;
+    min-width: 300px;
+    cursor: pointer;
+    font-family: "Playwrite DE Grund", cursive;
+}
+.payment-option p{
+    font-family: "Playwrite DE Grund", cursive;
+}
+.payment .payment-option:hover{
+    background-color:  #ffe7de;
+}
+
+@media (max-width:700px) {
+    .place-order{
+        flex-direction: column;
+    }
+}
