@@ -6,4 +6,6 @@ export default defineConfig({
   base: '/Food-Delivery-Site/',
   plugins: [react()],
   server: { port: 5173 },
+  build: { outDir: '.' // This ensures the build output goes to the root directory 
+  }
 })
