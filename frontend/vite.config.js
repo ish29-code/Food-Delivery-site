@@ -10,5 +10,5 @@ export default defineConfig({
            rollupOptions: { 
               external: ['/Food-Delivery-Site/assets/index-UirRUTxs.js'], // Add external modules here 
      },
-  }
-})
+  },
+});
