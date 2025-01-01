@@ -19,9 +19,9 @@ const port = process.env.PORT || 4000;
 app.use(express.json())
 app.use(cors())
 
-app.use(express.static(path.join(__dirname, 'public'))); 
+app.use(express.static(path.join(__dirname, '../frontend/docs'))); 
 app.get('*', (req, res) => { 
-    res.sendFile(path.join(__dirname, 'public', 'index.html')); 
+    res.sendFile(path.join(__dirname, '../frontend/docs', 'index.html')); 
 });
 
 // db connection
