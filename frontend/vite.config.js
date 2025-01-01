@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/Food-Delivery-Site/',
   plugins: [react()],
-  server: { port: 5173 },
+  server: { port: 4000 },
   build: { outDir: '.' // This ensures the build output goes to the root directory 
   }
 })
