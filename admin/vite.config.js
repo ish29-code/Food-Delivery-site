@@ -5,4 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: { port: 5174 },
+  build: { outDir: 'docs' // This ensures the build output goes to the root directory 
+  }
 })
