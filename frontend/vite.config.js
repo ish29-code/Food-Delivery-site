@@ -7,5 +7,8 @@ export default defineConfig({
   plugins: [react()],
   server: { port: 5173 },
   build: { outDir: 'docs' // This ensures the build output goes to the root directory 
+           rollupOptions: { 
+              external: ['/Food-Delivery-Site/assets/index-UirRUTxs.js'], // Add external modules here 
+     },
   }
 })
