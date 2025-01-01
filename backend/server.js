@@ -8,8 +8,6 @@ import cartRouter from "./routes/cartRoute.js"
 import orderRouter from "./routes/orderRoute.js"
 
 // Create __dirname equivalent in ES module 
-const __filename = fileURLToPath(import.meta.url); 
-const __dirname = path.dirname(__filename);
 
 // app config
 const app = express()
