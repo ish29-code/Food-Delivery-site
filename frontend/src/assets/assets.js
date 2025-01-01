@@ -1,7 +1,6 @@
 import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import logo33 from './logo33.png'
-import header_img from './header_img.png'
 import shoppingcart_icon from './shoppingcart_icon.jpg'
 import Hamburgerbackimage from './Hamburgerbackimage.jpg'
 import search_icon from './search_icon.png'
@@ -71,7 +70,6 @@ export const assets = {
     logo33,
     logo334,
     basket_icon,
-    header_img,
     shoppingcart_icon,
     Hamburgerbackimage,
     search_icon,
